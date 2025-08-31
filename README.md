@@ -71,13 +71,20 @@ Gmail (receiver: naidumahesh5@gmail.com) → Inbox / All Mail / Spam / Promotion
 ```markdown
 ![Notify via n8n](https://github.com/rakshithakbfive/n8n-github-demo/actions/workflows/notify.yml/badge.svg)
 ```
-## 9. Diagram
-```mermaid
-flowchart LR
-  A[GitHub Action] -->|POST JSON| B[n8n Webhook]
-  B --> C[Gmail Node (Send)]
-  C --> D[Inbox: naidumahesh5@gmail.com]
-```
+
+## 📸 Demo Screenshots
+
+### 1. Successful n8n Execution
+![n8n Execution](docs/n8n-execution.png)
+
+### 2. GitHub Action Workflow Run
+![GitHub Action Success](docs/github-action-success.png)
+
+### 3. Email Delivered in Gmail Inbox
+![Gmail Inbox](docs/gmail-inbox.png)
+
+---
+
 ## 10. Troubleshooting(quick)
 
 A. "src refspec main does not match any"
