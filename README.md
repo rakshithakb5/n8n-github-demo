@@ -1,5 +1,5 @@
-# n8n GitHub → Gmail Demo
-#🚀 GitHub → n8n → Gmail
+# 🚀 n8n GitHub → Gmail Demo
+
 ---
 
 ##  Prereqs
@@ -71,6 +71,7 @@ Gmail (receiver: naidumahesh5@gmail.com) → Inbox / All Mail / Spam / Promotion
 ```markdown
 ![Notify via n8n](https://github.com/rakshithakbfive/n8n-github-demo/actions/workflows/notify.yml/badge.svg)
 ```
+<<<<<<< HEAD
 
 ## 📸 Demo Screenshots
 
@@ -86,6 +87,9 @@ Gmail (receiver: naidumahesh5@gmail.com) → Inbox / All Mail / Spam / Promotion
 ---
 
 ## 10. Troubleshooting(quick)
+=======
+## 9. Troubleshooting(quick)
+>>>>>>> 44102a3a319ebfb61c28b18147b7f96c10004904
 
 A. "src refspec main does not match any"
    → You have no commits yet. Do:
@@ -137,8 +141,6 @@ Add a BCC field (e.g. to sender) to always get proof of delivery.
 
 Store Gmail node’s JSON output (id, threadId) as an artifact in GitHub Actions for debugging.
 
-Share your repo link and badge to showcase working GitHub → n8n → Gmail automation 🎉
----
 
 
 ---
