@@ -1,5 +1,5 @@
-# n8n GitHub → Gmail Demo
-#🚀 GitHub → n8n → Gmail
+# 🚀 n8n GitHub → Gmail Demo
+
 ---
 
 ##  Prereqs
