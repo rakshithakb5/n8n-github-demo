@@ -1,0 +1,24 @@
+name: Notify via n8n
+
+on:
+  workflow_dispatch:   # allows manual trigger from Actions tab
+  push:                # also runs automatically on push to main
+    branches: [ main ]
+
+jobs:
+  call-n8n:
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST to n8n Webhook
+        run: |
+          curl -X POST "$N8N_WEBHOOK_URL" \
+            -H "Content-Type: application/json" \
+            -d @- <<'JSON'
+          {
+            "to": "naidumahesh5@gmail.com",
+            "subject": "GitHub → n8n test (branch: ${{ github.ref_name }})",
+            "message": "This is a message sent using n8n.\n\nCommit: ${{ github.sha }}\nActor: ${{ github.actor }}\nRepo: ${{ github.repository }}"
+          }
+          JSON
+        env:
+          N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
