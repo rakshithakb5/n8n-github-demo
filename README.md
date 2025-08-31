@@ -71,6 +71,7 @@ Gmail (receiver: naidumahesh5@gmail.com) → Inbox / All Mail / Spam / Promotion
 ```markdown
 ![Notify via n8n](https://github.com/rakshithakbfive/n8n-github-demo/actions/workflows/notify.yml/badge.svg)
 
+```
 
 ## 9. 📸 Demo Screenshots
 
