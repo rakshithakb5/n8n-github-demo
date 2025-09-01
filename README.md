@@ -114,20 +114,7 @@ C. Action is green but no email
 
 #### Error: Can't push refs. Pull first.
 
-### ➡️ GitHub repo had a README/.gitignore. 
-Run:
-```bash
-git pull origin main --allow-unrelated-histories
-git push -u origin main
 
-```
-### Action green but no email
-```markdown
-➡️ Use a unique subject with timestamp.
-➡️ Check Gmail “All Mail” / Spam / Promotions.
-➡️ Ensure Gmail node has expressions (to/subject/message).
-➡️ Confirm Gmail credential is correct (sender account).
-```
 ---
 ## ✅ Next Steps
 Add more GitHub events as triggers (issues, PRs, releases).
