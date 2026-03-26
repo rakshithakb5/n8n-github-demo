@@ -2,7 +2,6 @@
 
 This project demonstrates a basic automation workflow using **n8n**, where an incoming webhook request triggers an email to be sent via Gmail.
 
----
 
 ## What I Implemented
 
@@ -10,13 +9,13 @@ This project demonstrates a basic automation workflow using **n8n**, where an in
 * Configured a **Gmail node** to send emails dynamically
 * Connected webhook data (JSON) to email fields
 
----
+
 
 ## Workflow
 
 Webhook Request → n8n → Gmail (Email Sent)
 
----
+
 
 ## How It Works
 
@@ -25,7 +24,7 @@ Webhook Request → n8n → Gmail (Email Sent)
 3. Data is passed to the Gmail node
 4. Email is sent using provided details
 
----
+
 
 ## Sample Request
 
@@ -40,14 +39,14 @@ Content-Type: application/json
 }
 ```
 
----
+
 
 ## Output
 
 * n8n execution shows successful workflow run
 * Email received in Gmail inbox
 
----
+
 
 ## Key Learning
 
@@ -55,7 +54,7 @@ Content-Type: application/json
 * Integrating external HTTP requests with automation workflows
 * Using n8n nodes for real-time processing
 
----
+
 
 ## License
 
